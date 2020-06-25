@@ -375,36 +375,36 @@ def update(title, committee, topic, sponsors, signatories, preambs, operatives, 
         return
     for i in range(0, len(y) - 1):
         if y[i] != "":
-            if y[i][0] == " " and y[i][1] == " ":
+            if y[i][0] == "*" and y[i][1] == "*":
                 sub_sub_clause_number += 1
-                if y[i + 1][0] != " ":
-                    write_sub_sub(y[i][2::], sub_sub_clause_number, ';')
+                if y[i + 1][0] != "*":
+                    write_sub_sub(y[i][2::].strip(), sub_sub_clause_number, ';')
                 else:
-                    write_sub_sub(y[i][2::], sub_sub_clause_number, ',')
-            elif y[i][0] == " ":
+                    write_sub_sub(y[i][2::].strip(), sub_sub_clause_number, ',')
+            elif y[i][0] == "*":
                 sub_clause_number += 1
-                if y[i + 1][0] != " ":
-                    write_sub(y[i][1::], sub_clause_number, ';')
+                if y[i + 1][0] != "*":
+                    write_sub(y[i][1::].strip(), sub_clause_number, ';')
                 else:
-                    if y[i + 1][1] == " ":
-                        write_sub(y[i][1::], sub_clause_number, '-')
+                    if y[i + 1][1] == "*":
+                        write_sub(y[i][1::].strip(), sub_clause_number, '-')
                     else:
-                        write_sub(y[i][1::], sub_clause_number, ',')
+                        write_sub(y[i][1::].strip(), sub_clause_number, ',')
             else:
                 clause_number += 1
                 sub_clause_number = 0
                 sub_sub_clause_number = 0
                 write("", 12, False, 0)
-                if y[i + 1][0] == " ":
+                if y[i + 1][0] == "*":
                     write_op(y[i].strip(), clause_number, b2, i2, u2, '-')
                 else:
                     write_op(y[i].strip(), clause_number, b2, i2, u2, ';')    
             
     y_final = y[len(y) - 1]
-    if y_final[0] == " " and y_final[1] == " ":
-        write_sub_sub(y_final[2::], sub_sub_clause_number + 1, '.')
-    elif y_final[0] == " ":
-        write_sub(y_final[1::], sub_clause_number + 1, '.')
+    if y_final[0] == "*" and y_final[1] == "*":
+        write_sub_sub(y_final[2::].strip(), sub_sub_clause_number + 1, '.')
+    elif y_final[0] == "*":
+        write_sub(y_final[1::].strip(), sub_clause_number + 1, '.')
     else:
         write("", 12, False, 0)
         write_op(y_final.strip(), clause_number + 1, b2, i2, u2, '.')
