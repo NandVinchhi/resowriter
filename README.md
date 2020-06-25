@@ -5,7 +5,7 @@ This is an open-source tool to make drafting resolutions in MUN committees far e
 * Enter the sponsor and signatory nations, separated by a comma and a space. Do not add a comma or a semi-colon at the end of the line. __Do not separate into multiple lines.__
 * Enter the preambulatory clauses __One per line__ and separated by a comma. There needs to be atleast 1 preambulatory clause and each clause needs to contain atleast 2 words.
 * Operative clauses:
-> Enter the operative clauses __One per line__ and separated by a semicolon, or comma, depending on the situation. There needs to be atleast one operative clause and each operative clause needs to have atleast 2 words. 
-> If the clause is a sub-clause to a previous clause, add in a single space before it.
-> If it is a sub-sub-clause to a previous sub-clause, add in two spaces before it.
+--> Enter the operative clauses __One per line__ and separated by a semicolon, or comma, depending on the situation. There needs to be atleast one operative clause and each operative clause needs to have atleast 2 words. 
+--> If the clause is a sub-clause to a previous clause, add in a single space before it.
+--> If it is a sub-sub-clause to a previous sub-clause, add in two spaces before it.
 
