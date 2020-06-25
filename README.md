@@ -9,3 +9,6 @@ This is an open-source tool to make drafting resolutions in MUN committees far e
   * If the clause is a sub-clause to a previous clause, add in a single space before it.
   * If it is a sub-sub-clause to a previous sub-clause, add in two spaces before it.
 * Select the required formatting for the keywords for both preambs and operatives.
+
+### Output of the above example:
+![](pics/output.png)
