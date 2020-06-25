@@ -22,7 +22,7 @@ https://drive.google.com/drive/folders/1rp1FyKAJyAZCf6q5l6CnbLLZleMt8oae?usp=sha
   * If the clause is a sub-clause to a previous clause, add in a single asterisk (*), followed by a space, before it.
   * If it is a sub-sub-clause to a previous sub-clause, add in two asterisks (\**), followed by a space, before it.
 
-![](pics/p5.png)
+![](pics/p6.png)
 
 * Select the required formatting for the keywords for both preambs and operatives.
 
