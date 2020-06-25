@@ -1,7 +1,11 @@
 # MUN Resolution Writer
 This is an open-source tool to make drafting resolutions in MUN committees far easier. It is a python-based desktop application made with [PyQt5](https://pypi.org/project/PyQt5/) and [python-docx](https://python-docx.readthedocs.io/en/latest/) library. It takes in raw text data and generates a .docx file which is fully formatted and ready to submit. I made this tool because I have personal experience of my entire resolution being scrapped due to formatting errors XD. You can check out the main.py file for the source code, or simply run the standalone .exe file to use this app. 
-Here is the google drive link to just the .exe file: https://drive.google.com/drive/folders/1rp1FyKAJyAZCf6q5l6CnbLLZleMt8oae?usp=sharing
+Here is the google drive link to just the .exe file:
+https://drive.google.com/drive/folders/1rp1FyKAJyAZCf6q5l6CnbLLZleMt8oae?usp=sharing
+
 __Please see the below instructions on how to use:__
+
+### How to use
 
 * First enter in the title of you resolution, your committee and the topic ... this should be pretty straight-forward.
 
