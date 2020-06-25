@@ -27,5 +27,5 @@ This is an open-source tool to make drafting resolutions in MUN committees far e
 ### Output of the above example (WoRdPaD MaStEr RaCe):
 ![](pics/output.png)
 
-### Contributing guideleines
-Any PRs are always welcome! The immediate things to add would be improving the error checking (rn it just checks for the fullstops and other simple things), as well as, adding some indentation on the UI side for clauses and sub-clauses.
+### Contributing guidelines
+Any PRs are always welcome! The immediate things to add would be improving the error checking (right now it just checks for the fullstops and other simple things), as well as adding some indentation on the UI side for clauses and sub-clauses.
