@@ -8,3 +8,4 @@ This is an open-source tool to make drafting resolutions in MUN committees far e
   * Enter the operative clauses __One per line__ and separated by a semicolon, or comma, depending on the situation. There needs to be atleast one operative clause and each operative clause needs to have atleast 2 words. 
   * If the clause is a sub-clause to a previous clause, add in a single space before it.
   * If it is a sub-sub-clause to a previous sub-clause, add in two spaces before it.
+* Select the required formatting for the keywords for both preambs and operatives.
