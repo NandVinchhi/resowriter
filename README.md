@@ -9,3 +9,7 @@ This is an open-source tool to make drafting resolutions in MUN committees far e
  * If the clause is a sub-clause to a previous clause, add in a single space before it.
  * If it is a sub-sub-clause to a previous sub-clause, add in two spaces before it.
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
