@@ -13,12 +13,12 @@ https://drive.google.com/drive/folders/1rp1FyKAJyAZCf6q5l6CnbLLZleMt8oae?usp=sha
 
 ![](pics/p2.png)
 
-* Enter the preambulatory clauses __One per line__ and separated by a comma. There needs to be atleast 1 preambulatory clause and each clause needs to contain atleast 2 words.
+* Enter the preambulatory clauses __One per line__ and separated by a comma. There needs to be at least 1 preambulatory clause and each clause needs to contain at least 2 words.
 
 ![](pics/p4.png)
 
 * Operative clauses:
-  * Enter the operative clauses __One per line__ and separated by a semicolon, or comma, depending on the situation. There needs to be atleast one operative clause and each operative clause needs to have atleast 2 words. 
+  * Enter the operative clauses __One per line__ and separated by a semicolon, or comma, depending on the situation. There needs to be at least one operative clause and each operative clause needs to have at least 2 words. 
   * If the clause is a sub-clause to a previous clause, add in a single asterisk (*), followed by a space, before it.
   * If it is a sub-sub-clause to a previous sub-clause, add in two asterisks (\**), followed by a space, before it.
 
