@@ -28,7 +28,7 @@ https://drive.google.com/drive/folders/1rp1FyKAJyAZCf6q5l6CnbLLZleMt8oae?usp=sha
 
 ![](pics/p3.png)
 
-### Output of the above example (WoRdPaD MaStEr RaCe):
+### Output of the above example:
 ![](pics/output.png)
 
 ### Contributing guidelines
